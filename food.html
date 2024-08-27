@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Order Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Food Order Form</h1>
+  <form action="process-food-form.php" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br><br>
+    <label for="roomNumber">Room Number:</label>
+    <input type="number" id="roomNumber" name="roomNumber"><br><br>
+    <label for="foodType">Type of Food:</label>
+    <select id="foodType" name="foodType">
+      <option value="breakfast">Breakfast</option>
+      <option value="lunch">Lunch</option>
+      <option value="dinner">Dinner</option>
+      <option value="snack">Snack</option>
+      <option value="other">Other (please specify)</option>
+    </select><br><br>
+    <input type="submit" value="Submit Food Order">
+  </form>
+
+  <p><a href="hotel.html"><button>Back to Hotel Page</button></a></p> <!-- change this line -->
+</body>
+</html>

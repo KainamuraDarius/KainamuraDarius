@@ -1,0 +1,209 @@
+body{
+    background-color: powderblue;
+    h2{color:blue;}
+    p{color:grey;}
+    ol{color:rgb(16, 182, 219);}
+    ul{color:darkgreen;}
+    tr{color:black;}
+}
+
+.thick-green-border {
+  width: 90%;
+  border: 10px solid green;
+  border-radius: 10px; /* add a rounded corner to the border */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* add a shadow to the image */
+}
+
+
+
+
+
+.div{
+    display: flex;
+    background-color: bisque;
+    color: green;
+    font-size: 20px;
+    justify-content: center;
+
+}
+.blue-text{
+    color:blue;
+}
+h1{font-size:40px;}
+h1{
+    font-family:lobster,monospace;}
+h4{color:rgb(21, 235, 92)}
+.thick-green-border{
+    border-color:green;
+    border-radius: 60%;
+}
+footer{
+    background-color: silver;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 120px 40px; /* 10px horizontal spacing, 20px vertical spacing */
+    tr:nth-child(even) {
+        background-color: #f0f0f0; /* light gray background color for even rows */
+      }
+      
+      tr:nth-child(odd) {
+        background-color: #fff; /* white background color for odd rows */
+      }
+  }
+
+  .services, .breakfast, .food {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 200px; /* adjust the width to fit your content */
+  }
+  
+  .services ul, .breakfast ul, .food ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .services li, .breakfast li, .food li {
+    word-wrap: break-word;
+  }
+button{
+    background-color: rgb(17, 223, 154);
+    border:none;
+    color: black;
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 110px;
+    border-radius: 30px;
+}
+
+.order-now-button {
+  background-color: rgb(17, 223, 154);
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 110px;
+  border-radius: 30px;
+}
+.service-container {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* Style the headings */
+h1, h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+/* Style the images */
+img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+/* Style the paragraphs */
+p {
+  margin-bottom: 20px;
+}
+/* Style the back to hotel page link */
+a {
+  text-decoration: none;
+  color: #337ab7;
+}
+a:hover {
+  color: #23527c;
+}
+/* Add some space between the service containers and the back to hotel page link */
+.service-container:last-child {
+  margin-bottom: 40px;
+}
+
+.my-button{
+    background-color: beige;
+    border:none;
+    color: black;
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 110px;
+    border-radius: 30px;
+}
+
+/* Media Queries */
+
+/* Add styles for screens with a maximum width of 768px */
+@media screen and (max-width: 768px) {
+  body{
+    background-color: chartreuse;
+  }
+  h1{
+    font-size: 20px;
+    text-align: center;
+  }
+hi{
+  font-size: 20px;
+  color: black;
+  text-align: center;
+}
+
+  img{
+   width: 170px;
+    height: 200px;
+    margin: 10px;
+  }
+
+
+
+  .div {
+    padding: 10px;
+    border-radius: 1;
+    width:50vw;
+  min-width: 400px;
+  max-width: 800px;
+  }
+
+
+
+
+
+
+
+  table{
+    margin: 20px;
+  }
+
+
+  .services, .breakfast, .food {
+    width: 100%;
+    
+  }
+  services{
+    background-color: chartreuse;
+  }
+}
+
+/* Add styles for screens with a maximum width of 480px */
+/*<!-- @media screen and (max-width: 680px) {
+  .div {
+    font-size: 20px;
+  }
+  .services, .breakfast, .food {
+    padding: 5px;
+  }
+  button, .order-now-button, .my-button {
+    width: 100%;
+  }
+} */
